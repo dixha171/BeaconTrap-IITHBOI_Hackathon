@@ -191,12 +191,6 @@ Evidence hashes are anchored via [`contracts/EvidenceAnchor.sol`](./contracts/Ev
 
 ---
 
-## Team
-
-Built by **K. S. Harshitaa**, **Kim Mathur**, **Garima Sharma**, and **Dixha Bharti** for the PSB Cybersecurity, Fraud & AI Hackathon 2026 (with IIT Hyderabad).
-
----
-
 ## License
 
-Add your team's chosen license here (MIT recommended for hackathon submissions).
+This project is licensed under the [MIT License](./LICENSE).
