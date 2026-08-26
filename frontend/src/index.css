@@ -201,6 +201,40 @@ html.light .bg-\[var\(--bg-panel-alt\)\],
   backdrop-filter: blur(14px) !important;
 }
 
+/* Extend the glass treatment to the mapped Tailwind utility classes
+   (bg-panel / bg-panel-alt / bg-card) used across dashboard, lab and
+   copilot components, so every surface gets the same soft frosted look
+   regardless of which class syntax a component happens to use. */
+html.light .bg-panel,
+:root.light .bg-panel,
+html.light .bg-card,
+:root.light .bg-card {
+  background: rgba(255, 255, 255, 0.68) !important;
+  backdrop-filter: blur(18px) !important;
+  box-shadow: 0 12px 40px rgba(90, 66, 149, 0.13) !important;
+}
+
+html.light .bg-panel-alt,
+:root.light .bg-panel-alt {
+  background: rgba(235, 230, 245, 0.6) !important;
+  backdrop-filter: blur(14px) !important;
+}
+
+/* Soften every sharp "forensic console" corner into the same generously
+   rounded glass-card language used by the ENCRYPT CMP reference. Scoped to
+   light mode only so the dark cyber theme keeps its sharper identity. */
+html.light .rounded-sm,
+:root.light .rounded-sm,
+.light .rounded-sm {
+  border-radius: 14px !important;
+}
+
+html.light .rounded,
+:root.light .rounded,
+.light .rounded {
+  border-radius: 10px !important;
+}
+
 body {
   background-color: var(--bg-base);
   color: var(--text-primary);
