@@ -95,94 +95,81 @@ html.dark {
   --mitre-low-border: #322B3A;
 }
 
-/*
-  =============================================================================
-  SAVED BACKUP: SWAPPED LIGHT MODE V2 — WHITE BASE (#FFFFFF) + LILAC PANELS (#F3F0F7)
-  =============================================================================
-  --bg-base: #FFFFFF;
-  --bg-panel: #F3F0F7;
-  --bg-panel-alt: #E7E2F0;
-  --border: #DAD4E6;
-  --text-primary: #241F2E;
-  --text-muted: #756E85;
-  --accent: #6B4EFF;
-  =============================================================================
-*/
-
 html.light,
 :root.light,
 .light {
-  /* LIGHT MODE GLASSMORPHISM: Gradient Base (#f5f2ff, #ece8ff) + Glassmorphic Cards */
+  /* ENCRYPT CMP GLASSMORPHISM THEME: Gradient Base (#f5f2ff, #ece8ff) + Pastel Glass Cards */
   --bg-base: linear-gradient(135deg, #f5f2ff, #ece8ff);
-  --bg-panel: rgba(255, 255, 255, 0.75);
-  --bg-panel-alt: rgba(235, 230, 245, 0.65);
-  --border: rgba(255, 255, 255, 0.45);
-  --text-primary: #241F2E;
-  --text-muted: #6C647C;
-  --accent: #6B4EFF;
-  --accent-cool: #2D7A6E;
-  --accent-warm: #D9622B;
+  --bg-panel: rgba(255, 255, 255, 0.68);
+  --bg-panel-alt: rgba(235, 230, 245, 0.6);
+  --border: rgba(90, 66, 149, 0.15);
+  --text-primary: #2d2352;
+  --text-muted: #8b7fb0;
+  --accent: #5a4295;
+  --accent-cool: #3aab8a;
+  --accent-warm: #c8186a;
 
-  --severity-critical: #D9622B;
-  --severity-high: #E07A38;
-  --severity-medium: #D99B26;
-  --severity-low: #2D7A6E;
+  --severity-critical: #c8186a;
+  --severity-high: #c07a10;
+  --severity-medium: #d9a726;
+  --severity-low: #3aab8a;
 
   --background: #f5f2ff;
-  --foreground: #241F2E;
-  --card: rgba(255, 255, 255, 0.75);
+  --foreground: #2d2352;
+  --card: rgba(255, 255, 255, 0.68);
   --card-border: rgba(255, 255, 255, 0.45);
-  --card-bg-secondary: rgba(235, 230, 245, 0.65);
-  --primary: #6B4EFF;
-  --primary-hover: #5639E0;
+  --card-bg-secondary: rgba(235, 230, 245, 0.6);
+  --primary: #5a4295;
+  --primary-hover: #4a3280;
   --primary-glow: transparent;
-  --critical: #D9622B;
-  --high: #E07A38;
-  --medium: #D99B26;
-  --low: #2D7A6E;
-  --safe: #2D7A6E;
+  --critical: #c8186a;
+  --high: #c07a10;
+  --medium: #d9a726;
+  --low: #3aab8a;
+  --safe: #3aab8a;
 
   --bg-page: transparent;
-  --bg-sidebar: rgba(255, 255, 255, 0.55);
-  --sidebar-border: rgba(255, 255, 255, 0.35);
-  --sidebar-text: #6C647C;
-  --sidebar-text-active: #241F2E;
-  --sidebar-item-hover: rgba(255, 255, 255, 0.85);
-  --sidebar-active-bg: rgba(255, 255, 255, 0.85);
-  --sidebar-active-border: #6B4EFF;
+  --bg-sidebar: #5a4295;
+  --sidebar-border: rgba(255, 255, 255, 0.15);
+  --sidebar-text: rgba(255, 255, 255, 0.72);
+  --sidebar-text-active: #ffffff;
+  --sidebar-item-hover: rgba(255, 255, 255, 0.18);
+  --sidebar-active-bg: rgba(255, 255, 255, 0.26);
+  --sidebar-active-border: #b8f0e0;
 
   --bg-header: rgba(255, 255, 255, 0.55);
   --header-border: rgba(255, 255, 255, 0.35);
   --bg-main: transparent;
-  --briefing-bg: rgba(255, 255, 255, 0.75);
+  --briefing-bg: rgba(255, 255, 255, 0.68);
 
-  --text-secondary: #6C647C;
-  --card-dot-color: #6B4EFF;
+  --text-secondary: #8b7fb0;
+  --card-dot-color: #5a4295;
   --btn-copilot-text: #FFFFFF;
+  --radius-card: 20px;
 
   /* SVG maps & charts variables - Glass Light Mode */
   --map-bg: transparent;
   --map-continent-fill: rgba(235, 230, 245, 0.7);
-  --map-continent-stroke: rgba(218, 212, 230, 0.8);
-  --map-grid-line: rgba(218, 212, 230, 0.4);
-  --map-side-bg: rgba(255, 255, 255, 0.75);
+  --map-continent-stroke: rgba(90, 66, 149, 0.2);
+  --map-grid-line: rgba(90, 66, 149, 0.12);
+  --map-side-bg: rgba(255, 255, 255, 0.68);
   --map-side-border: rgba(255, 255, 255, 0.45);
   --graph-bg: transparent;
-  --graph-grid-line: rgba(218, 212, 230, 0.4);
+  --graph-grid-line: rgba(90, 66, 149, 0.12);
 
-  /* MITRE cells - Light Mode */
-  --mitre-critical-bg: rgba(254, 226, 226, 0.8);
-  --mitre-critical-text: #991B1B;
-  --mitre-critical-border: #FCA5A5;
-  --mitre-high-bg: rgba(255, 237, 213, 0.8);
-  --mitre-high-text: #9A3412;
-  --mitre-high-border: #FDBA74;
-  --mitre-medium-bg: rgba(254, 243, 199, 0.8);
-  --mitre-medium-text: #92400E;
-  --mitre-medium-border: #FDE68A;
+  /* MITRE cells - Light Mode (pastel, matches ENCRYPT CMP accent palette) */
+  --mitre-critical-bg: rgba(200, 24, 106, 0.12);
+  --mitre-critical-text: #9d1261;
+  --mitre-critical-border: rgba(200, 24, 106, 0.30);
+  --mitre-high-bg: rgba(192, 122, 16, 0.12);
+  --mitre-high-text: #8a5c0c;
+  --mitre-high-border: rgba(192, 122, 16, 0.30);
+  --mitre-medium-bg: rgba(217, 167, 38, 0.14);
+  --mitre-medium-text: #8a6a10;
+  --mitre-medium-border: rgba(217, 167, 38, 0.30);
   --mitre-low-bg: rgba(235, 230, 245, 0.8);
-  --mitre-low-text: #6C647C;
-  --mitre-low-border: rgba(218, 212, 230, 0.8);
+  --mitre-low-text: #8b7fb0;
+  --mitre-low-border: rgba(90, 66, 149, 0.15);
 }
 
 /* User-requested Glassmorphic class */
@@ -203,20 +190,32 @@ html.light body,
 
 html.light .bg-\[var\(--bg-panel\)\],
 :root.light .bg-\[var\(--bg-panel\)\] {
-  background: rgba(255, 255, 255, 0.65) !important;
+  background: rgba(255, 255, 255, 0.68) !important;
   backdrop-filter: blur(18px) !important;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.06) !important;
+  box-shadow: 0 12px 40px rgba(90, 66, 149, 0.13) !important;
+}
+
+html.light .bg-\[var\(--bg-panel-alt\)\],
+:root.light .bg-\[var\(--bg-panel-alt\)\] {
+  background: rgba(235, 230, 245, 0.6) !important;
+  backdrop-filter: blur(14px) !important;
 }
 
 body {
   background-color: var(--bg-base);
   color: var(--text-primary);
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: 'Poppins', 'Inter', system-ui, -apple-system, sans-serif;
   overflow-x: hidden;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
   transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+html.light body,
+:root.light body,
+.light body {
+  font-family: 'Poppins', 'Inter', system-ui, -apple-system, sans-serif;
 }
 
 code, pre, .font-mono {
