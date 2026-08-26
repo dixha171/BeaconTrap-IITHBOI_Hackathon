@@ -239,7 +239,7 @@ export default function RiskIntelligenceWheel({
                 cx={CX} cy={CY}
                 r={INNER_R + MAX_EXT * f}
                 fill="none"
-                stroke="rgba(30,41,59,0.5)"
+                stroke="var(--graph-grid-line)"
                 strokeWidth="0.6"
                 strokeDasharray={i === 3 ? "none" : "2 8"}
               />
