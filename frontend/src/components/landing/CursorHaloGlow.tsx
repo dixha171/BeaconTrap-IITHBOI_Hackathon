@@ -33,9 +33,9 @@ export const CursorHaloGlow: React.FC = () => {
     <div
       className="pointer-events-none fixed inset-0 z-30 transition-opacity duration-300"
       style={{
-        background: isLightMode
-          ? `radial-gradient(650px circle at ${position.x}px ${position.y}px, rgba(56, 189, 248, 0.32), rgba(59, 130, 246, 0.18), rgba(255, 255, 255, 0) 70%)`
-          : `radial-gradient(650px circle at ${position.x}px ${position.y}px, rgba(6, 182, 212, 0.22), rgba(59, 130, 246, 0.12), rgba(3, 7, 18, 0) 70%)`
+                background: isLightMode
+          ? `radial-gradient(650px circle at ${position.x}px ${position.y}px, rgba(90, 66, 149, 0.16), rgba(58, 171, 138, 0.10), rgba(255, 255, 255, 0) 70%)`
+          : `radial-gradient(650px circle at ${position.x}px ${position.y}px, rgba(6, 182, 212, 0.22), rgba(59, 130, 246, 0.12), rgba(3, 7, 18, 0) 70%)``
 
       }}
     />
