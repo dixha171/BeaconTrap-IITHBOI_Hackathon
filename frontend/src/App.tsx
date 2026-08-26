@@ -373,17 +373,17 @@ function MainAppShell() {
       <SystemSettingsModal isOpen={isSettingsOpen} onClose={() => setIsSettingsOpen(false)} />
       <ServerTelemetryModal isOpen={isServerOpen} onClose={() => setIsServerOpen(false)} />
 
-      {/* Sidebar Navigation */}
-      <aside className="w-60 bg-[var(--bg-base)] border-r border-[var(--border)] flex flex-col shrink-0">
-        <div className="p-4 border-b border-[var(--border)] flex items-center gap-3">
-          <div className="w-8 h-8 rounded-sm bg-[var(--bg-panel)] border border-[var(--border)] flex items-center justify-center text-[var(--accent)]">
+           {/* Sidebar Navigation */}
+      <aside className="w-60 bg-[var(--sidebar-bg)] border-r border-[var(--sidebar-border)] flex flex-col shrink-0 shadow-[4px_0_24px_rgba(90,66,149,0.20)]">
+        <div className="p-4 border-b border-[var(--sidebar-border)] flex items-center gap-3">
+          <div className="w-8 h-8 rounded-xl bg-[rgba(255,255,255,0.12)] border border-[rgba(255,255,255,0.18)] flex items-center justify-center text-[var(--sidebar-active-border)]">
             <Shield className="w-5 h-5" />
           </div>
           <div>
-            <h1 className="font-bold tracking-wider text-xs text-[var(--text-primary)] font-mono">
+            <h1 className="font-bold tracking-wider text-xs text-[var(--sidebar-text-active)] font-sans">
               BEACONTRAP
             </h1>
-            <p className="text-[10px] font-mono text-[var(--text-muted)]">
+            <p className="text-[10px] font-mono text-[var(--sidebar-text)]">
               SOC FORENSICS v1.0
             </p>
           </div>
