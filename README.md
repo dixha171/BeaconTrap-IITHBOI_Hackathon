@@ -2,6 +2,8 @@
 
 **A Generative AI-powered malware analysis and fraud intelligence platform for Android APKs, built for the PSB Cybersecurity, Fraud & AI Hackathon (IIT Hyderabad).**
 
+🏆 **Finalist — PSB Cybersecurity, Fraud & AI Hackathon (IIT Hyderabad).** Selected as 1 of 9 finalist teams for our problem statement out of 3,000+ entries.
+
 BeaconTrap ingests suspicious Android APKs — banking trojans, KYC-spoofing apps, SMS interceptors, overlay attacks — and runs them through a full static + dynamic analysis pipeline, correlates them into campaigns using graph intelligence, scores their risk with an explainable engine, and produces tamper-evident, blockchain-anchored forensic reports for analysts, bank officers, and regulators.
 
 🔗 Live frontend: [beacon-trap-frontend.vercel.app](https://beacon-trap-frontend.vercel.app)
@@ -188,6 +190,19 @@ GEMINI_API_KEY, OPENAI_API_KEY          # LLM providers for the AI agents
 ## Smart Contract
 
 Evidence hashes are anchored via [`contracts/EvidenceAnchor.sol`](./contracts/EvidenceAnchor.sol), a minimal Solidity contract exposing `anchor(caseId, evidenceHash)` and `verify(caseId, hashToCheck)`, deployed on **Ethereum Sepolia**. The frontend signs anchoring transactions client-side via MetaMask (ethers.js); the backend independently verifies on-chain state via Web3.py — so no single party can quietly rewrite the evidence trail.
+
+---
+
+## Team
+
+Built by:
+
+- Dixha Bharti
+- Garima Sharma
+- Kim Mathur
+- K. S. Harshitaa
+
+Contributions, issues, and feature requests are welcome — feel free to open a PR or start a discussion.
 
 ---
 
